@@ -1,0 +1,33 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.compass{
+    background-color: aquamarine;
+    height:300px;
+    width:300px;
+    border-radius: 50%;
+    border: 10px solid grey;
+    position: relative;
+}
+.compass .direction{
+    text-align: center;
+    position: absolute;
+    height:100%;
+    width:100%;
+    transform: rotate(var(--rotation));
+}
+.compass .east{
+    --rotation:90deg;
+}
+.compass .south{
+    --rotation:180deg;
+}
+.compass .west{
+    --rotation:270deg;
+}
+.compass .north{
+    --rotation:0deg;
+}
+
