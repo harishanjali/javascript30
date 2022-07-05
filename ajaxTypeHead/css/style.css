@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+body{
+    display: flex;
+    justify-content: center;
+    min-height:100vh;
+}
+input{
+    margin-top:10px;
+    width:300px;
+    height:50px;
+    font-size: 18px;
+}
+ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+    padding-top:10px;
+}
+.each-el{
+    margin:0;
+    padding-left:0;
+    text-align: unset;
+    padding:10px 0px 10px 10px;
+    background-color: aqua;
+    width:350px;
+    box-shadow: 0 0 5px black;
+}
+.hl{
+    background-color: yellow;
+}
